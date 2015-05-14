@@ -1,27 +1,47 @@
-#input-1{
-  font-size: 28px;
+
+
+
+#input-1 {
+  font-size: 40px;
   height: 36px;
-  width: 50%;
+  width: 55%;
 }
-
 /*Hide other slides to start*/
-#slide-2, #slide-3, #slide-4, #slide-5{
-  display: none;
+
+#slide-2,
+#slide-3,
+#slide-4,
+#slide-5 {
+  display: block;
 }
 
-.slide{
+.slide {
   margin: 0;
   padding: 20px 100px;
   width: 100%;
 }
-
 /*Final slide styling*/
-#slide-3{
+
+#slide-3 {
   font-size: 30px;
 }
 /*This style will apply to any image inside the #slide-3 div*/
-#slide-3 img{
-  border: 10px inset gold;
+
+#slide-3 img {
+  border: 10px inset green;
   display: block;
   max-width: 300px;
+}
+
+body{
+  background: #d2ff52; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #d2ff52 24%, #91e842 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(24%,#d2ff52), color-stop(100%,#91e842)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #d2ff52 24%,#91e842 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #d2ff52 24%,#91e842 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #d2ff52 24%,#91e842 100%); /* IE10+ */
+background: linear-gradient(135deg,  #d2ff52 24%,#91e842 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+ 
 }
